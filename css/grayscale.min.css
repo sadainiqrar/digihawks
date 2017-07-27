@@ -180,6 +180,18 @@ body{font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;web
 .address{font-family:lato-light; font-size: 11pt; text-align: left; float:left; padding: 1em 0em 0em 0em; vertical-align: text-top}
 
 .intro,.aboutus .intro-body,{display:table-cell;vertical-align:middle}
+
+.brande-heading1{font-size:2em;  color:#de4a58; font-style: normal}
+@media (min-width: 768px) {
+    .brande-heading1{font-size:4em; color:#de4a58; font-style: normal}
+}
+@media (min-width: 992px) {
+    .brande-heading1{font-size:4em; color:#de4a58; font-style: normal}
+}
+@media (min-width: 1200px) {
+    .brande-heading1{font-size:4em; color:#de4a58; font-style: normal}
+}
+
 .brand-heading1{font-size:3em;  color:#de4a58; font-style: normal}
 @media (min-width: 768px) {
     .brand-heading1{font-size:5em; color:#de4a58; font-style: normal}
