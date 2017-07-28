@@ -10,6 +10,38 @@
   background: -moz-radial-gradient(white, #f3f3f4, #e3e3e3) bottom center no-repeat; /* For Firefox 3.6 to 15 */
   background: radial-gradient(white, #f3f3f4, #e3e3e3) bottom center no-repeat; /* Standard syntax */
 }
+
+
+@keyframes anim1 {
+    0%   {transform: translate3d(0em, 0em, 0em);}
+    50%  {transform: translate3d(0em, 1em, 0em);}
+    100% {transform: translate3d(0em, 0em, 0em);}
+}
+
+@keyframes anim2 {
+    0%   {transform: translate3d(0em, 1em, 0em);}
+    50%  {transform: translate3d(0em, 0em, 0em);}
+    100% {transform: translate3d(0em, 1em, 0em);}
+}
+
+.pop{
+    
+    transform: translate3d(0em, 0em, 0em);
+    -webkit-animation-name: anim1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    animation-name: anim1;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.pop2{
+    transform: translate3d(0em, 1em, 0em);
+    -webkit-animation-name: anim2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: anim1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 @font-face{font-family:MontserratR;src: url(../vendor/font-awesome/fonts/Montserrat-Regular.otf);}
 .small-text{font-family: MontserratR; color: #4d4d4d; font-size: 10px; display:inline; padding-left:0em; vertical-align: text-bottom}
 @media (min-width: 768px) {
