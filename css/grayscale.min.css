@@ -118,9 +118,9 @@
 
 
 
-.respon{width: 20%; display:inline}
+.respon{width: 60%; display:inline}
 @media (min-width: 768px) {
-    .respon{width: 40%; display:inline}
+    .respon{width: 70%; display:inline}
 }
 @media (min-width: 992px) {
     .respon{width: 80%; display:inline}
@@ -255,7 +255,7 @@ body{font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;web
 @media (min-width: 1200px) {
     .brand-heading1{font-size:5em; color:#de4a58; font-style: normal}
 }
-.brand-heading2{font-size:2em;  color:#4d4d4d}
+.brand-heading2{font-size:1em;  color:#4d4d4d}
 @media (min-width: 768px) {
     .brand-heading2{font-size:45px; color:#4d4d4d;}
 }
@@ -354,7 +354,7 @@ body{font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;web
 .brand-heading4{font-size:48pt; color:#ffaf1d; font-style: normal;text-shadow: 0px 2px 2px #292929;}
 }
 
-.brand-heading3{font-size:2em;  color:#4d4d4d; display:inline; vertical-align: middle}
+.brand-heading3{font-size:1em;  color:#4d4d4d; display:inline; vertical-align: middle}
 @media (min-width: 768px) {
     .brand-heading3{font-size:45px; color:#4d4d4d;}
 }
