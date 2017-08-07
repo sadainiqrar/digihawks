@@ -399,15 +399,15 @@ body{font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;web
 }
 
 
-.pad-t{padding: 30em 2em}
+.pad-t{margin: 28em 0em 29em 2em}
 @media (min-width: 768px) {
-.pad-t{padding: 60em 8em}
+.pad-t{margin: 60em 8em}
 }
 @media (min-width: 992px) {
-.pad-t{padding: 12em 10em}
+.pad-t{margin: 8em 10em}
 }
 @media (min-width: 1200px) {
-.pad-t{padding: 12em 16em}
+.pad-t{margin: 12em 16em}
 }
 
 .pad-service{padding: 0em 0; text-align: center}
