@@ -630,9 +630,9 @@ body{font-family:Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;color:#fff;web
 
 .line-t{height: 0em; border-top:2.5px solid #ffa500}
 .line-h{height: 0em; border-top:0.5pt solid #ffa500}
-
-
-
+.modal-open .container-fluid, .modal-open  .container {
+    -webkit-filter: blur(5px) grayscale(90%);
+}
 
 .carousel-captionn{position:absolute;bottom:20px;z-index:10;color:#fff;text-align:center;}
     
